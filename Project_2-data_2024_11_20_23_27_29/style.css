@@ -57,11 +57,17 @@ button {
 }
 
 .header {
+  margin: auto;
+  text-align: center;
   grid-area: header;
 }
 .main {
+  margin: auto;
+  text-align: center;
   grid-area: main;
 }
 .footer {
+  margin: auto;
+  text-align: center;
   grid-area: footer;
 }
