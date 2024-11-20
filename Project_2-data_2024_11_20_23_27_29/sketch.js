@@ -7,7 +7,6 @@ let X = 0;
 let rc = 0;
 let gc = 0;
 let bc = 0;
-//let YAY = random(50,200);
 let death = true;
 let dislike = true;
 let bigGText = true;
@@ -288,6 +287,9 @@ function deathScrean() {
     text("press W to wake up", 300, 550, 500);
     pop();
     bigGText = false;
+    rc = 0;
+    bc = 0;
+    gc = 0;
   }
 }
 
@@ -296,6 +298,7 @@ function keyPressed() {
     if (!death) {
       death = true;
       bigGText = true;
+
     }
   }
 }
